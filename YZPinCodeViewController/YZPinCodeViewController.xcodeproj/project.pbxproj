@@ -21,16 +21,17 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B8427C9E22CF8AB900849B30 /* YZPinCodeRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8427C9D22CF8AB900849B30 /* YZPinCodeRoundButton.swift */; };
 		B8B43D8222CF88F700507168 /* YZPinCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B43D8022CF88F700507168 /* YZPinCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8B43D8E22CF891D00507168 /* YZPinCodeErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B43D8822CF891C00507168 /* YZPinCodeErrorView.swift */; };
 		B8B43D8F22CF891D00507168 /* YZHightLightPinCodeRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B43D8922CF891C00507168 /* YZHightLightPinCodeRoundButton.swift */; };
 		B8B43D9022CF891D00507168 /* YZPInCodeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B43D8A22CF891C00507168 /* YZPInCodeDelegate.swift */; };
 		B8B43D9122CF891D00507168 /* YZPinCodeNumPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B43D8B22CF891C00507168 /* YZPinCodeNumPadView.swift */; };
-		B8B43D9222CF891D00507168 /* YZPinCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B43D8C22CF891D00507168 /* YZPinCodeView.swift */; };
 		B8B43D9322CF891D00507168 /* YZPinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B43D8D22CF891D00507168 /* YZPinCodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8427C9D22CF8AB900849B30 /* YZPinCodeRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPinCodeRoundButton.swift; sourceTree = SOURCE_ROOT; };
 		B8B43D7D22CF88F700507168 /* YZPinCodeViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YZPinCodeViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B43D8022CF88F700507168 /* YZPinCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPinCodeViewController.h; sourceTree = "<group>"; };
 		B8B43D8122CF88F700507168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		B8B43D8922CF891C00507168 /* YZHightLightPinCodeRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZHightLightPinCodeRoundButton.swift; sourceTree = SOURCE_ROOT; };
 		B8B43D8A22CF891C00507168 /* YZPInCodeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPInCodeDelegate.swift; sourceTree = SOURCE_ROOT; };
 		B8B43D8B22CF891C00507168 /* YZPinCodeNumPadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPinCodeNumPadView.swift; sourceTree = SOURCE_ROOT; };
-		B8B43D8C22CF891D00507168 /* YZPinCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPinCodeView.swift; sourceTree = SOURCE_ROOT; };
 		B8B43D8D22CF891D00507168 /* YZPinCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YZPinCodeViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -72,11 +72,11 @@
 		B8B43D7F22CF88F700507168 /* YZPinCodeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B8427C9D22CF8AB900849B30 /* YZPinCodeRoundButton.swift */,
 				B8B43D8922CF891C00507168 /* YZHightLightPinCodeRoundButton.swift */,
 				B8B43D8A22CF891C00507168 /* YZPInCodeDelegate.swift */,
 				B8B43D8822CF891C00507168 /* YZPinCodeErrorView.swift */,
 				B8B43D8B22CF891C00507168 /* YZPinCodeNumPadView.swift */,
-				B8B43D8C22CF891D00507168 /* YZPinCodeView.swift */,
 				B8B43D8D22CF891D00507168 /* YZPinCodeViewController.swift */,
 				B8B43D8022CF88F700507168 /* YZPinCodeViewController.h */,
 				B8B43D8122CF88F700507168 /* Info.plist */,
@@ -191,8 +191,8 @@
 				B8B43D9122CF891D00507168 /* YZPinCodeNumPadView.swift in Sources */,
 				B8B43D9022CF891D00507168 /* YZPInCodeDelegate.swift in Sources */,
 				B8B43D8E22CF891D00507168 /* YZPinCodeErrorView.swift in Sources */,
+				B8427C9E22CF8AB900849B30 /* YZPinCodeRoundButton.swift in Sources */,
 				B8B43D9322CF891D00507168 /* YZPinCodeViewController.swift in Sources */,
-				B8B43D9222CF891D00507168 /* YZPinCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
