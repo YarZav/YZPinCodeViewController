@@ -56,6 +56,12 @@ protocol YZPinCodeViewControllerDesignation: YZPinCodeNumPadViewDesignation {
     
     /// Get error string, when attempt was failed
     func getErrorString() -> String
+    
+    /// Get forgot button text color
+    func getForgotButtonTextColor() -> UIColor
+    
+    /// Get forgot button text
+    func getForgotButtonText() -> String
 }
 
 extension YZPinCodeViewControllerDesignation {
@@ -78,6 +84,11 @@ extension YZPinCodeViewControllerDesignation {
     /// Default circle radius is 10
     func getCircleRadius() -> CGFloat {
         return 10
+    }
+    
+    /// Get forgot button text color
+    func getForgotButtonTextColor() -> UIColor {
+        return .white
     }
 }
 

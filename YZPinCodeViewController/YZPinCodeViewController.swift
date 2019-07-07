@@ -78,6 +78,10 @@ extension YZPinCodeViewController {
         self.createTitleLabel(designation: designation)
         self.createCircleViews(designation: designation)
         self.createNumPadView()
+        
+        if self.viewType == .change || self.viewType == .delete || self.viewType == .enter {
+            self.createForgotButton(designation: designation)
+        }
     }
     
     /// Create back button
@@ -174,6 +178,18 @@ extension YZPinCodeViewController {
         NSLayoutConstraint(item: numPadView, attribute: .top, relatedBy: .equal, toItem: self.circlesView, attribute: .bottom, multiplier: 1, constant: 16).isActive = true
         NSLayoutConstraint(item: numPadView, attribute: .left, relatedBy: .equal, toItem: self.view, attribute: .left, multiplier: 1, constant: 16).isActive = true
         NSLayoutConstraint(item: numPadView, attribute: .right, relatedBy: .equal, toItem: self.view, attribute: .right, multiplier: 1, constant: -16).isActive = true
+    }
+    
+    private func createForgotButton(designation: YZPinCodeViewControllerDesignation) {
+        let forgotButton = UIButton(type: .custom)
+        forgotButton.setTitleColor(designation.getForgotButtonTextColor(), for: .normal)
+        forgotButton.setTitle(designation.getForgotButtonText(), for: .normal)
+        
+        self.view.addSubview(forgotButton)
+        forgotButton.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint(item: forgotButton, attribute: .bottom, relatedBy: .equal, toItem: self.view, attribute: .bottom, multiplier: 1, constant: -16).isActive = true
+        NSLayoutConstraint(item: forgotButton, attribute: .left, relatedBy: .equal, toItem: self.view, attribute: .left, multiplier: 1, constant: 16).isActive = true
+        NSLayoutConstraint(item: forgotButton, attribute: .right, relatedBy: .equal, toItem: self.view, attribute: .right, multiplier: 1, constant: -16).isActive = true
     }
     
     /// Create error view
